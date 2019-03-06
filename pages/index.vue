@@ -1,18 +1,25 @@
 <template>
   <section class="container">
     <div>
-      <logo />
+	    {{ articles }}
+      <en-logo />
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
+import * as API_Article from '@/api/articles'
 export default {
-  components: {
-    Logo
-  }
+  name: 'index',
+  async asyncData({ params }) {
+    const { data } = await API_Article.GET_Articles()
+	  const articles = { data }
+    return {
+	    articles
+    }
+  },
+	mounted() {
+	}
 }
 </script>
 

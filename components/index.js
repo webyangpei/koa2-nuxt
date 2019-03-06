@@ -1,6 +1,6 @@
-import Header from './Header'
-import Footer from './Footer'
-import Logo from './Logo'
+import Header from './public/Header'
+import Footer from './public/Footer'
+import Logo from './public/Logo'
 
 export {
   Header,

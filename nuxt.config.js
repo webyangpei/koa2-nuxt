@@ -1,5 +1,5 @@
 const pkg = require('./package')
-
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'spa',
@@ -25,9 +25,10 @@ module.exports = {
   modules: [
   ],
   build: {
+	  analyze: true,
     transpile: [/^element-ui/],
-    extend(config, ctx) {
-
+    extend(config, { isClient, isServer }) {
+	    config.resolve.alias['vue$'] = 'vue/dist/vue.esm.js'
     }
   },
   router: {
