@@ -1,7 +1,7 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two" />
-  </div>
+	<div>
+		<img src="" class="logo" alt="">这是一个logo
+	</div>
 </template>
 
 <script>
