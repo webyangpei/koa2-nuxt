@@ -1,5 +1,6 @@
 <template>
   <div>
+    <en-header />
     <nuxt id="warpper"/>
   </div>
 </template>

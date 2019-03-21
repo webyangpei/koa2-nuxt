@@ -3,13 +3,13 @@
     <!--分类-->
     <div class="bolg-category">
       <ul>
-        <li></li>
+        <li>文章</li>
       </ul>
     </div>
     <!--登录方式-->
     <div class="bolg-login-style">
       <ul>
-        <li></li>
+        <li>手机号登录</li>
       </ul>
     </div>
   </div>
@@ -20,7 +20,7 @@
     name: 'EnHeader',
     asyncData() {
       // 获取文章分类列表
-      const categories = API_
+      // const categories = API_
       // 获取登录方式
     },
     mounted() {

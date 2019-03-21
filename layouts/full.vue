@@ -1,6 +1,7 @@
 <template>
-    <div></div>
-
+  <div>
+    <nuxt id="warpper"/>
+  </div>
 </template>
 
 <script>

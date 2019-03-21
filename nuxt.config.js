@@ -16,10 +16,10 @@ module.exports = {
   },
   loading: { color: '#fff' },
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'ant-design-vue/dist/antd.css'
   ],
   plugins: [
-    { src: '@/plugins/element-ui', ssr: false },
+    { src: '@/plugins/antd', ssr: false },
     { src: '@/plugins/vue-components', ssr: false }
   ],
   modules: [

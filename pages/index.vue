@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-	    {{ articles }}
+	    <!-- {{ articles }} -->
       <en-logo />
     </div>
   </section>
@@ -12,11 +12,11 @@ import * as API_Article from '@/api/articles'
 export default {
   name: 'index',
   async asyncData({ params }) {
-    const { data } = await API_Article.GET_Articles()
-	  const articles = { data }
-    return {
-	    articles
-    }
+    // const { data } = await API_Article.GET_Articles()
+	  // const articles = { data }
+    // return {
+	  //   articles
+    // }
   },
 	mounted() {
 	}
