@@ -18,6 +18,3 @@ npm-debug.log
 
 # Nuxt generate
 dist
-
-ui-domain
-ui-utils
